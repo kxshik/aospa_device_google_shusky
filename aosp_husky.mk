@@ -23,7 +23,10 @@ $(call inherit-product, device/google/zuma/aosp_common.mk)
 $(call inherit-product, device/google/shusky/husky_generic.mk)
 
 PRODUCT_NAME := aosp_husky
+PRODUCT_NAME_FOR_ATTESTATION := husky
 PRODUCT_DEVICE := husky
 PRODUCT_MODEL := AOSP on husky
+PRODUCT_MODEL_FOR_ATTESTATION := Pixel 8 Pro
 PRODUCT_BRAND := Android
+PRODUCT_BRAND_FOR_ATTESTATION := google
 PRODUCT_MANUFACTURER := Google
